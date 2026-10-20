@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực hành CSS Box Model</title>
+    <!-- Liên kết tệp CSS ngoài -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Thẻ 1: content-box -->
+    <div class="card">
+        <h3>Thẻ 1: content-box</h3>
+        <p>Tổng chiều rộng = width (280) + padding (40) + border (10) = 330px.</p>
+    </div>
+
+    <!-- Thẻ 2: border-box -->
+    <div class="card">
+        <h3>Thẻ 2: border-box</h3>
+        <p>Tổng chiều rộng cố định = 280px (padding và border nằm bên trong).</p>
+    </div>
+
+    <!-- Thẻ 3: border-box -->
+    <div class="card">
+        <h3>Thẻ 3: border-box</h3>
+        <p>Tương tự Thẻ 2, tổng chiều rộng vẫn cố định = 280px.</p>
+    </div>
+
+</body>
+</html>
